@@ -1,5 +1,5 @@
 {
-  "name": "bizcard_2nd",
+  "name": "skmt3p-bizcard",
   "version": "1.0.0",
   "description": "bizcard of sakamoto-san / skmt3p",
   "author": "Skmt3P",
@@ -13,21 +13,23 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/dotenv": "^1.3.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
     "express": "^4.16.3",
-    "@nuxtjs/axios": "^5.0.0"
+    "firebase": "^5.8.2",
+    "nuxt": "^2.0.0",
+    "tailwindcss": "~0.6.6"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
+    "autoprefixer": "^8.6.4",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0",
     "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.14.3",
-    "autoprefixer": "^8.6.4",
-    "tailwindcss": "~0.6.6"
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3"
   }
 }
