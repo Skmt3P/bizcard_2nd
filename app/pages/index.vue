@@ -1,21 +1,5 @@
 <template>
   <div class="main content-center" >
-    <!-- <logo/>
-      <h1 class="title">
-        bizcard_2nd
-      </h1>
-      <h2 class="subtitle">
-        bizcard of sakamoto-san / skmt3p
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a> -->
     <div class="container">
       <section
         id="card" 
@@ -24,29 +8,46 @@
           id="line1" 
           class="sm:flex md:inline-flex lg:inline-flex xl:inline-flex">
           <div class="flex-box">
+            <br><h1 class="overflow-scroll">Sakamoto-san / Skmt3P's BizCard</h1><br>
             <img 
               id="img"
               class="content overflow-hidden"
               src="~/assets/image/icon.png" 
               alt="Sakamoto-san's photo">
+            <span class="content text-grey-darker text-base">
+              <br>I'm a Frontend Engineer from Japan.<br><br>
+            </span>
+            <a href="https://scrapbox.io/skmt3p/001.RESUME-Who-is-Skmt3P">
+              <button class="content bg-red hover:bg-red-dark text-white font-bold py-1 px-3 rounded">
+                <i class="fas fa-history" /> View My RESUME
+              </button>
+            </a>
+            <a href="https://scrapbox.io/skmt3p/002.ABOUT-What-is-OUTPUT">
+              <button class="content bg-yellow-dark hover:bg-yellow-darker text-white font-bold py-1 px-3 rounded">
+                <i class="fas fa-file" /> View My OUTPUT
+              </button>
+            </a>
+            <br>
+            <a href="https://twitter.com/skmt3p">
+              <button class="content bg-blue hover:bg-blue-dark text-white font-bold py-1 px-3 rounded">
+                <i class="fab fa-twitter" /> Contact by Twitter
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/san-sakamoto-91957152">
+              <button class="content bg-green hover:bg-green-dark text-white font-bold py-1 px-3 rounded">
+                <i class="fab fa-linkedin" /> Contact by LinkedIn
+              </button>
+            </a>
+            <p><br></p>
           </div>
           <div class="flex-box sm:max-w-3/4 md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2">
-            <h1 class="overflow-scroll">Sakamoto-san / Skmt3P's BizCard</h1>
-            <img 
-              id="img"
-              class="content overflow-hidden"
-              src="~/assets/image/sign.png" 
-              alt="Sakamoto-san's photo"
-              style="width:80%; height:80%">
-            <p class="content text-grey-darker text-base">
-              <br>I'm a Frontend Engineer from Japan.<br>
-              My output is <a href="https://scrapbox.io/skmt3p/">HERE</a>!!<br>
-              Contact me by these Social Media!!<br><br>
-            </p>
-            <div class="contenrt">
+            <br><h3><b>Tags</b></h3><br>
+            <div class="content">
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Vue.js</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#nuxt</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Nuxt</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Nodejs</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Angular</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#nestjs</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#extjs</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#php</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Python</span>
@@ -60,8 +61,15 @@
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#sketch</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#SAP ERP</span>
             </div>
-            <p><br></p>
+            <br><h3><b>Signature</b></h3><br>
+            <img 
+              id="img"
+              class="content overflow-hidden"
+              src="~/assets/image/sign.png" 
+              alt="Sakamoto-san's signature"
+              style="width:75%; height:75%">
           </div>
+          <br>
         </div>
       </section>
       <!-- <div class = "w-1/6"/> -->
@@ -70,11 +78,12 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  head() {
+    return {
+      titleTemplate: null,
+      title: "Skmt3P's BizCard"
+    }
   }
 }
 </script>
@@ -133,6 +142,7 @@ section {
 
 .content {
   margin: auto;
+  margin-bottom: 1%;
 }
 
 .tags {

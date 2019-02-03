@@ -1,7 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
   srcDir: 'app',
   /*
   ** Headers of the page
@@ -11,7 +11,22 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'og:site_name', property: 'og:site_name', content: pkg.name },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://skmt3p.com' },
+      { hid: 'og:title', property: 'og:title', content: 'pkg.name' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: pkg.description
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '~/assets/image/icon.png'
+      },
+      { name: 'twitter:site', content: '@Skmt3P' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -24,7 +39,13 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/css/tailwind.css'],
+  css: [
+    '~/assets/css/tailwind.css',
+    '@fortawesome/fontawesome-free-webfonts',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
+  ],
 
   /*
   ** Plugins to load before mounting the App
