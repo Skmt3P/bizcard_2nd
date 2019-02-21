@@ -17,27 +17,63 @@
             <span class="content text-grey-darker text-base">
               <br>I'm a Frontend Engineer from Japan.<br><br>
             </span>
-            <a href="https://scrapbox.io/skmt3p/001.RESUME-Who-is-Skmt3P">
-              <button class="content bg-red hover:bg-red-dark text-white font-bold py-1 px-3 rounded">
-                <i class="fas fa-history" /> View My RESUME
-              </button>
-            </a>
-            <a href="https://scrapbox.io/skmt3p/002.ABOUT-What-is-OUTPUT">
-              <button class="content bg-yellow-dark hover:bg-yellow-darker text-white font-bold py-1 px-3 rounded">
-                <i class="fas fa-file" /> View My OUTPUT
-              </button>
-            </a>
-            <br>
-            <a href="https://twitter.com/skmt3p">
-              <button class="content bg-blue hover:bg-blue-dark text-white font-bold py-1 px-3 rounded">
-                <i class="fab fa-twitter" /> Contact by Twitter
-              </button>
-            </a>
-            <a href="https://www.linkedin.com/in/san-sakamoto-91957152">
-              <button class="content bg-green hover:bg-green-dark text-white font-bold py-1 px-3 rounded">
-                <i class="fab fa-linkedin" /> Contact by LinkedIn
-              </button>
-            </a>
+            <div class="flex-box flex flex-wrap">
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://scrapbox.io/skmt3p/001.RESUME-Who-is-Skmt3P"
+                  target="”_blank”">
+                  <button class="content bg-red hover:bg-red-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fas fa-history" /> View My RESUME
+                  </button>
+                </a>
+              </div>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://scrapbox.io/skmt3p/002.ABOUT-What-is-OUTPUT"
+                  target="”_blank”">
+                  <button class="content bg-yellow-dark hover:bg-yellow-darker text-white font-bold py-1 px-3 rounded">
+                    <i class="fas fa-file" /> View My OUTPUT
+                  </button>
+                </a>
+              </div>
+              <br>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://twitter.com/skmt3p"
+                  target="”_blank”">
+                  <button class="content bg-blue hover:bg-blue-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-twitter" /> Contact by Twitter
+                  </button>
+                </a>
+              </div>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://www.linkedin.com/in/san-sakamoto-91957152"
+                  target="”_blank”">
+                  <button class="content bg-green hover:bg-green-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-linkedin" /> Contact by LinkedIn
+                  </button>
+                </a>
+              </div>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://github.com/Skmt3P"
+                  target="”_blank”">
+                  <button class="content bg-indigo hover:bg-indigo-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-github" /> View My Github
+                  </button>
+                </a>
+              </div>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://www.patreon.com/skmt3p"
+                  target="”_blank”">
+                  <button class="content bg-pink hover:bg-pink-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-patreon" /> Donate with Patreon
+                  </button>
+                </a>
+              </div>
+            </div>
             <p><br></p>
           </div>
           <div class="flex-box sm:max-w-3/4 md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2">
