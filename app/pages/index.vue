@@ -66,10 +66,10 @@
               </div>
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
-                  href="https://www.patreon.com/skmt3p"
+                  href="https://scrapbox.io/skmt3p/003.Make-Donations"
                   target="”_blank”">
                   <button class="content bg-pink hover:bg-pink-dark text-white font-bold py-1 px-3 rounded">
-                    <i class="fab fa-patreon" /> Donate with Patreon
+                    <i class="fas fa-money-check-alt" /> Make Donations
                   </button>
                 </a>
               </div>
