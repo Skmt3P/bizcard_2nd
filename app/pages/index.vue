@@ -2,17 +2,17 @@
   <div class="main content-center" >
     <div class="container">
       <section
-        id="card" 
+        id="card"
         class="flex rounded shadow-lg overflow-scroll bg-image">
-        <div 
-          id="line1" 
+        <div
+          id="line1"
           class="sm:flex md:inline-flex lg:inline-flex xl:inline-flex">
           <div class="flex-box">
             <br><h1 class="overflow-scroll">Sakamoto-san / Skmt3P's BizCard</h1><br>
-            <img 
+            <img
               id="img"
               class="content overflow-hidden"
-              src="~/assets/image/icon.png" 
+              src="~/assets/image/prof_real_mix icon.png"
               alt="Sakamoto-san's photo">
             <span class="content text-grey-darker text-base">
               <br>I'm a Frontend Engineer from Japan.<br><br>
@@ -20,7 +20,7 @@
             <div class="flex-box flex flex-wrap">
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
-                  href="https://scrapbox.io/skmt3p/001.RESUME-Who-is-Skmt3P"
+                  href="https://velocv.com/skmt3p"
                   target="”_blank”">
                   <button class="content bg-red hover:bg-red-dark text-white font-bold py-1 px-3 rounded">
                     <i class="fas fa-history" /> View My RESUME
@@ -29,7 +29,7 @@
               </div>
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
-                  href="https://scrapbox.io/skmt3p/002.ABOUT-What-is-OUTPUT"
+                  href="https://scrapbox.io/skmt3p/"
                   target="”_blank”">
                   <button class="content bg-yellow-dark hover:bg-yellow-darker text-white font-bold py-1 px-3 rounded">
                     <i class="fas fa-file" /> View My OUTPUT
@@ -57,7 +57,7 @@
               </div>
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
-                  href="https://github.com/Skmt3P"
+                  href="https://github.com/Skmt3P/open-source-activities/"
                   target="”_blank”">
                   <button class="content bg-indigo hover:bg-indigo-dark text-white font-bold py-1 px-3 rounded">
                     <i class="fab fa-github" /> View My Github
@@ -79,29 +79,29 @@
           <div class="flex-box sm:max-w-3/4 md:max-w-1/2 lg:max-w-1/2 xl:max-w-1/2">
             <br><h3><b>Tags</b></h3><br>
             <div class="content">
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Vue.js</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Vue</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Nuxt</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Nodejs</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Node</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Angular</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#nestjs</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#extjs</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Nestjs</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Extjs</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#php</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Python</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Docker</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Firebase</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#CircleCI</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#git</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Git</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#SQL</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#MongoDB</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#RESTfulAPI</span>
-              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#sketch</span>
+              <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Sketch</span>
               <span class="tags inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#SAP ERP</span>
             </div>
             <br><h3><b>Signature</b></h3><br>
-            <img 
+            <img
               id="img"
               class="content overflow-hidden"
-              src="~/assets/image/sign.png" 
+              src="~/assets/image/sign.png"
               alt="Sakamoto-san's signature"
               style="width:75%; height:75%">
           </div>
