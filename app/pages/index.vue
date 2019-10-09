@@ -36,7 +36,24 @@
                   </button>
                 </a>
               </div>
-              <br>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://www.facebook.com/Sakamoto3P"
+                  target="”_blank”">
+                  <button class="content bg-indigo hover:bg-indigo-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-facebook" /> Contact by Facebook
+                  </button>
+                </a>
+              </div>
+              <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <a
+                  href="https://www.linkedin.com/in/ryu-sakamoto-91957152/"
+                  target="”_blank”">
+                  <button class="content bg-green hover:bg-green-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-linkedin" /> Contact by LinkedIn
+                  </button>
+                </a>
+              </div>
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
                   href="https://twitter.com/skmt3p"
@@ -48,10 +65,10 @@
               </div>
               <div class="content p-1 sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <a
-                  href="https://www.linkedin.com/in/san-sakamoto-91957152"
+                  href="https://join.skype.com/invite/lNdAlxw7id2D"
                   target="”_blank”">
-                  <button class="content bg-green hover:bg-green-dark text-white font-bold py-1 px-3 rounded">
-                    <i class="fab fa-linkedin" /> Contact by LinkedIn
+                  <button class="content bg-purple hover:bg-purple-dark text-white font-bold py-1 px-3 rounded">
+                    <i class="fab fa-skype" /> Contact by Skype
                   </button>
                 </a>
               </div>
@@ -59,7 +76,7 @@
                 <a
                   href="https://github.com/Skmt3P/open-source-activities/"
                   target="”_blank”">
-                  <button class="content bg-indigo hover:bg-indigo-dark text-white font-bold py-1 px-3 rounded">
+                  <button class="content bg-black hover:bg-black-dark text-white font-bold py-1 px-3 rounded">
                     <i class="fab fa-github" /> View My Github
                   </button>
                 </a>
