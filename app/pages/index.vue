@@ -199,6 +199,7 @@ export default {
   text-align: center;
   margin: auto;
   width: 100%;
+  position: fixed;
 }
 
 .card {
