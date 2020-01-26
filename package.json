@@ -34,5 +34,8 @@
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "prettier-eslint-cli": "^4.7.1"
+  },
+  "engines": {
+    "node": "latest"
   }
 }
