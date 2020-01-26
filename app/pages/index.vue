@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <section class="card flex rounded shadow-lg overflow-scroll bg-image">
+    <section class="card flex rounded shadow-lg bg-image">
       <div class="card__inner sm:flex md:inline-flex lg:inline-flex xl:inline-flex">
         <div class="flex-box">
           <h1 class="card__heading">Sakamoto-san / Skmt3P's BizCard</h1>
